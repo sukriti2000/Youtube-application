@@ -1,0 +1,31 @@
+.Dictaphone{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.Mic{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.MicIcon{
+    border-radius: 50%;
+    border: 5px solid green;
+}
+.controls{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.controls button{
+    padding: 10px 15px;
+    color: white;
+    border: none;
+}
+.transcript{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

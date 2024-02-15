@@ -1,0 +1,28 @@
+.SingleComment p{
+    font-size: 80%;
+}
+.SingleComment{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-content: center;
+}
+.SingleCommentLikeDislike{
+    max-width: 80px;
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+.CommentReplyContainer{
+    display: flex;
+    width: 90%;
+    align-self: flex-end;
+    align-content: center;
+}
+.CommentReply{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: flex-start;
+}

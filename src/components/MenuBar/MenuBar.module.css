@@ -1,0 +1,46 @@
+.MenuBar{
+    display: flex;
+    max-width: 100%;
+    color: white;
+    /* background-color: white; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.Logo{
+    flex: 30%;
+    max-width: 30%;
+    display: flex;
+    align-items: center;
+}
+.Logo h3{
+    padding: 0;
+    margin: 0;
+}
+.SearchContainer{
+    max-width: 60%;
+    flex: 60%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: flex-end;
+}
+.SearchContainer form{
+    max-width: 50%;
+    flex: 50%;
+}
+.SearchContainer form input{
+    box-sizing: border-box;
+    padding: 7px 10px;
+    width: 100%;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #aaaaaa;
+    outline: none;
+    color: white;
+}
+.SearchContainer button{
+    padding: 7px 15px;
+    background-color: #FFFFFF14;
+    border: none;
+}

@@ -1,0 +1,10 @@
+.Comments{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    color: white;
+    margin-top: 20px;
+}
+.Comments p{
+    font-size: 80%;
+}

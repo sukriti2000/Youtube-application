@@ -1,0 +1,13 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin : 0;
+    padding : 0;
+    background-color: black;
+    padding: 0 2vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
